@@ -12,3 +12,4 @@ def max(x,y)
         maximo=x
     else:
         maximo=y
+    return maximo
