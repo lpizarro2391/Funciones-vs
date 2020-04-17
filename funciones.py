@@ -1,5 +1,7 @@
-x=(input("indique el primer numero: "))
-y=(input("indique el segundo numero: "))
+x=int(input("indique el primer numero: "))
+y=int(input("indique el segundo numero: "))
+z=int(input("indique el tercer numero: "))
+
 def max(a,b):
     """ Esta funcion calcula el maximo entre dos numros """
     if a>b:
@@ -7,4 +9,4 @@ def max(a,b):
     else:
         maximo=b
     return maximo
-print("el máximo entre ",x,"y",y,"es",max(x,y))   
+print("el máximo entre ",x,",",y,"y",z,"es" ,max(max(x,y),z))
