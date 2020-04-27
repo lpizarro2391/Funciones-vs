@@ -1,4 +1,4 @@
 import requests
-from requests.auth import HTTPBasicAuth
-from getpass import getpass
-requests.get('https://api.github.com', verify=False)
+requests.get('https://api.github.com', timeout=1)
+
+requests.get('https://api.github.com', timeout=3.05)
