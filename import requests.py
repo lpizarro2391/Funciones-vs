@@ -1,3 +1,3 @@
 import requests
 response = requests.get('https://api.github.com')
-response.text
+response.json()
